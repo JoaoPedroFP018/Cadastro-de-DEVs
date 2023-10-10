@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://blog.faspec.edu.br/wp-content/uploads/2018/10/33.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+img{
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-bottom: 65px;
+}
+
+div{
+    background: linear-gradient(to bottom, #001b2e, #2a569f); 
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 
+    0 0 10px rgba(255, 255, 255, 0.2), 
+    0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 20px;
+    width: 306px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 6px;
+    outline: none;
+    border: solid 3px rgb(149, 149, 149);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 322.8px;
+    margin-left: 14px;          
+    padding: 20px;
+    border-radius: 10px; 
+    outline: none;
+    background-color: #e67f00;
+    border: solid 3px #b66400;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input::-webkit-inner-spin-button{
+  appearance: none;
+}
+
+.ENTRAR:hover{
+    background-color:#ffa334;
+    border: solid 3px #ff9f2a;
+    color: wheat;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a:hover{
+    color: #001b2e;
+}
+
+
